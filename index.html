@@ -9,17 +9,21 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
             rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <link rel="stylesheet" href="styles/navbar.css">
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/banner.css">
     </head>
     <body>
 
-        <header>
-            <nav class="navbar font-inter">
+        <header class="font-inter">
+            <nav class="navbar">
 
                 <div class="navbar-logo">
-                    <img src="./assets/logo-navbar.png" alt="Knowledge Vault logo">
+                    <img src="./assets/logo-navbar.png"
+                        alt="Knowledge Vault logo">
 
                 </div>
 
@@ -38,22 +42,32 @@
             <section class="banner">
                 <div class="banner-content">
                     <div class="banner-content-text">
-                        <h3>Early Access Now Open</h3>
+                        <div class="early-access">
+                            <div class="dot-outer">
+                                <div class="dot-middle">
+                                    <div class="dot-inner"></div>
+                                </div>
+                            </div>
+                            <p>Early Access Now Open</p>
+                        </div>
+
                         <h1>
-                            <span>Structured Thinking,</span><br><span>Not Just
+                            <span id="h1-first">Structured Thinking,</span><br><span id="h1-second">Not Just
                                 Note-Taking.</span>
                         </h1>
-                        <p>
+                        <p id="banner-content-description">
                             A private space to store notes, links, and learning
-                            summaries — designed to
+                            summaries — designed to <br>
                             help you think clearly, connect ideas, and turn
                             learning into long-term knowledge.
                         </p>
                     </div>
                     <div class="banner-content-buttons">
-                        <button id="banner-content-button-1">Start Building Your Vault</button>
+                        <button id="banner-content-button-1" class="btn">Start Building Your
+                            Vault  <span id="arrow-right-icon"><img src="./assets/ArrowRight.png" alt=""></span></button>
 
-                        <button id="banner-content-button-2">See How It Works</button>
+                        <button id="banner-content-button-2" class="btn-transparent"><span><i class="fa-solid fa-play"></i></span> See How It
+                            Works</button>
                     </div>
                 </div>
             </section>
