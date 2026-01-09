@@ -1,7 +1,103 @@
 .second-brain-contents {
-    background-color: aqua;
-    margin: 120px ;
+    /* background-color: aqua;  */
+    margin: 0 120px 120px 120px;
     max-width: 1600px;
     min-height: 840px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
 
+.second-brain-content-image {
+    width : 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.second-brain {
+    background-color: #ffffff;
+}
+
+
+
+.second-braind-content-text {
+    flex: 1;
+    font-family: "Inter", sans-serif;
+}
+
+
+.second-braind-content-text .section-label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #22c55e;
+    margin-bottom: 16px;
+}
+
+
+.second-braind-content-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 20px;
+}
+
+
+.second-braind-content-text .description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #475569;
+    max-width: 520px;
+    margin-bottom: 28px;
+}
+
+
+.features-list {
+    list-style: none;
+}
+
+.features-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #334155;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 28px;
+}
+
+.features-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../assets/CheckCircle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color : #30B868
+}
+
+.description {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.features-list li {
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+color: #001931;
 }
