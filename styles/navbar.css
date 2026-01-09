@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 16px 120px 16px 120px;
+    max-width: 1600px;
 }
 
 .navbar ul {
