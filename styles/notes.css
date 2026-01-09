@@ -1,0 +1,81 @@
+.notes {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.notes-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.notes-contents-info {
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.notes-contents-info h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #001931;
+}
+
+.notes-contents-info p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.note-contents-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.note-card {
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}
+
+.note-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #001931;
+}
+
+.note-card p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.note-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f95555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.note-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
