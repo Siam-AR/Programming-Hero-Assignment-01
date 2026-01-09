@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.early-access {
+.early-access-banner {
   background-color: white;
 
   display: flex;
@@ -91,7 +91,7 @@
 
 }
 
-.early-access p {
+.early-access-banner p {
 
   font-size: 16px;
   font-weight: 500;
